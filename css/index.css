@@ -1,0 +1,31 @@
+@import url=('https://fonts.googleapis.com/css?family=IBM+Plex+Serif');
+
+:root {
+    font-size: 17px;
+}
+
+.marked, div>p {
+    color: #21abc4;
+}
+
+div+p {
+    color: red;
+}
+
+p:hover {
+    color: red;
+}
+
+p::before {
+    content: "<";
+    color: green;
+}
+p::after {
+    content: ">";
+    color: green;
+}
+
+p {
+    font-family: 'Indie Flower', cursive;
+    font-size: 2em;
+}
